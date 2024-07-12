@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeroInsight - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="AeroInsight_logo.png" alt="AeroInsight Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="content.html">Content</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Welcome to AeroInsight</h1>
+            <p>Your gateway to understanding the fascinating world of Aerospace Engineering.</p>
+            <img src="HomePlaneimage.jpg" alt="Home Plane Image" class="hero-image">
+            <a href="#reference" class="button" onclick="showReference()">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About AeroInsight</h2>
+            <p>
+                AeroInsight is dedicated to providing top-notch education and insights into the field of aerospace engineering. Our mission is to equip students and professionals with the knowledge and skills needed to excel in this exciting industry.
+            </p>
+            <div id="moreContent">
+                <p>
+                    Our platform offers a comprehensive range of resources, including detailed articles, tutorials, and interactive modules. Whether you are a student looking to enhance your understanding of aerodynamics, a professional seeking to stay updated with the latest advancements, or an enthusiast passionate about aerospace, AeroInsight has something for you.
+                </p>
+                <p>
+                    Join our community and explore topics from fundamental principles to advanced aerospace technologies. We cover various aspects of aerospace engineering, such as fluid dynamics, propulsion systems, aircraft design, and space exploration. Our content is curated by experts in the field, ensuring that you receive accurate and up-to-date information.
+                </p>
+                <p>
+                    At AeroInsight, we believe in continuous learning and professional development. We provide opportunities for networking, collaboration, and knowledge sharing among our members. Engage with like-minded individuals, participate in discussions, and contribute to the growth of our community.
+                </p>
+            </div>
+            <div id="reference" style="display: none;">
+                <p><strong>Image source:</strong> <a href="http://www.mathisintheair.org/">http://www.mathisintheair.org/</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AeroInsight. Website created by Faisal Alqadri.</p>
+        </div>
+    </footer>
+
+    <script>
+        function showReference() {
+            var reference = document.getElementById("reference");
+            reference.style.display = "block";
+        }
+    </script>
+</body>
+</html>
